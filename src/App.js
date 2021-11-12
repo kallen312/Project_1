@@ -1,12 +1,14 @@
 import "./styles.css";
-let first = ["Keturah", "Matthew", "Judy"]
+let first = ["Keturah", "Matthew", "Judy"];
+let last = [];
+let role = [];
+let color = [];
 
-function addName(firstName){
-return firstName;
+function addName(firstName) {
+  return firstName;
 }
 
-
-let name = first.map(addName)
+let name = first.map(addName);
 
 export default function App() {
   return (
